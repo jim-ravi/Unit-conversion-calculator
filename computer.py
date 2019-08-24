@@ -7,8 +7,7 @@ import change.len.cm_dm
 import change.len.dm_m
 import change.len.m_km
 import change.len.mm_cm
-import change.len.nm_mm
-import change.len.pm_nm
+import change.len.cm_dm
 import change.speed.kms_kmh
 import change.speed.ms_kmh
 import change.speed.ms_kms
