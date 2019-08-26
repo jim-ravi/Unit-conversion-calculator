@@ -69,6 +69,90 @@ while runtime == 1:
                     continue
                 else:
                     break
+            # 平方厘米-平方分米
+            if area_change_choose == 2:
+                area_choose = int(input('''
+                1、平方厘米to平方分米
+                2、平方分米to平方厘米
+                请输入选择：'''))
+                if area_choose == 1:
+                    change_num = float(input('''请输入要转换的数值(单位:平方厘米):'''))
+                    print(str(change_num) + '平方厘米=' + str(change.area.cm2_dm2.cm22dm2(change_num)) + '平方分米')
+                elif area_choose == 2:
+                    change_num = float(input('''请输入要转换的数值(单位:平方分米):'''))
+                    print(str(change_num) + '平方分米=' + str(change.area.cm2_dm2.dm22cm2(change_num)) + '平方厘米')
+
+                run = int(input('''
+                继续计算请按1
+                退出请按2
+                '''))
+                if run == 1:
+                    continue
+                else:
+                    break
+            # 平方分米-平方米
+            if area_change_choose == 3:
+                area_choose = int(input('''
+                1、平方分米to平方米
+                2、平方米to平方分米
+                请输入选择：'''))
+                if area_choose == 1:
+                    change_num = float(input('''请输入要转换的数值(单位:平方分米):'''))
+                    print(str(change_num) + '平方分米=' + str(change.area.dm2_m2.dm22m2(change_num)) + '平方米')
+                elif area_choose == 2:
+                    change_num = float(input('''请输入要转换的数值(单位:平方米):'''))
+                    print(str(change_num) + '平方米=' + str(change.area.dm2_m2.m22dm2(change_num)) + '平方分米')
+
+                run = int(input('''
+                继续计算请按1
+                退出请按2
+                '''))
+                if run == 1:
+                    continue
+                else:
+                    break
+            # 平方米-公顷
+            if area_change_choose == 4:
+                area_choose = int(input('''
+                1、平方米to公顷
+                2、公顷to平方米
+                请输入选择：'''))
+                if area_choose == 1:
+                    change_num = float(input('''请输入要转换的数值(单位:平方米):'''))
+                    print(str(change_num) + '平方米=' + str(change.area.m2_ha.m22ha(change_num)) + '公顷')
+                elif area_choose == 2:
+                    change_num = float(input('''请输入要转换的数值(单位:公顷):'''))
+                    print(str(change_num) + '公顷=' + str(change.area.m2_ha.ha2m2(change_num)) + '平方米')
+
+                run = int(input('''
+                继续计算请按1
+                退出请按2
+                '''))
+                if run == 1:
+                    continue
+                else:
+                    break
+            # 平方米-平方千米
+            if area_change_choose == 5:
+                area_choose = int(input('''
+                1、平方米to平方千米
+                2、平方千米to平方米
+                请输入选择：'''))
+                if area_choose == 1:
+                    change_num = float(input('''请输入要转换的数值(单位:平方米):'''))
+                    print(str(change_num) + '平方米=' + str(change.area.m2_km2.m22km2(change_num)) + '平方千米')
+                elif area_choose == 2:
+                    change_num = float(input('''请输入要转换的数值(单位:平方千米):'''))
+                    print(str(change_num) + '平方千米=' + str(change.area.m2_km2.km22m2(change_num)) + '平方米')
+
+                run = int(input('''
+                继续计算请按1
+                退出请按2
+                '''))
+                if run == 1:
+                    continue
+                else:
+                    break
 
         # 长度转换
         if change_choose == 2:
